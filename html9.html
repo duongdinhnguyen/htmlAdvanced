@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <title>Document</title>
+    <style>
+        .body-css{
+            height:500px;
+            width: 1300px;
+            margin: 30px auto;
+        }
+        h1{
+            margin: 70px 0 30px 50px;
+        }
+        .body-css div{
+            float: left;
+        }
+       
+        hr{
+            width: 50px;
+            padding: 1px;
+            background-color: tomato;
+            margin-left: 50px;/* chỉnh thẻ hr qua trái phải dùng margin-left right ko thể dùng align*/
+            border: none;
+                }
+        
+        .content-css {
+            height:390px;
+            width: 390px;
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        
+        .function-css{
+            height: 390px;
+            width: 800px;
+            margin-left: 50px;
+        }
+        .content-css ul li{
+            display: block;
+            margin: 39px 20px 20px 0;
+        }
+        .opacity-css{
+            opacity: 0.6;
+        }
+        a{
+            margin-left: 20px;
+            text-decoration: none;
+            color:black;
+        }
+        .input-css{
+            height:30px;
+            width: 790px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .input001-css{
+            height:100px;
+            width: 790px;
+            margin-bottom: 10px;
+        }
+        .opacity-css button{
+            height:39px;
+            width: 120px;
+            background-color: rgb(60, 238, 37);
+            border-radius: 5px;
+            color:white;
+            border:none;
+        }
+        .opacity-css button:hover{  
+            cursor: pointer;
+            background-color: rgb(175, 133, 55);
+        }
+    </style>
+</head>
+<body>
+    <div class="body-css">
+        <h1>
+            CONTACT US
+        </h1>
+        <hr>
+        <div class="content-css">
+            <h2>Contact Info
+            </h2>
+            <ul class="opacity-css">
+                <li><i class="fas fa-map-marker-alt"></i><a href="#">321 Awesome Street New York, NY 17022
+                </a></li>
+                <li><i class="far fa-envelope"></i><a href="#">info@companyname.com
+                </a></li>
+                <li><i class="fas fa-phone"></i><a href="#">+1 800 123 1234
+                </a></li>
+            </ul>
+        </div>
+        <div class="function-css">
+            <h2>Having Any Query! Or Book an appointment
+            </h2>
+            <form class="opacity-css">
+                <input type="text" placeholder="Your Name" class="input-css" >
+                <input type="text" placeholder="Your Email" class="input-css">
+                <input type="text" placeholder="Subject" class="input-css">
+                <input type="text" placeholder="Massage" class="input001-css">
+                <button>Send Message
+                </button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
